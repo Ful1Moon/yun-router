@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Router</title>
+</head>
+<body>
+    <h1>H5前端路由hash变化demo</h1>
+  <div class="container" id=container>
+
+  </div>
+  <script type="text/html" id="home">
+    <div class="home">
+      <a href="#/page1">go page1</a>
+      <a href="#/page2">go page2</a>
+      <a href="#/page3">go page3</a>
+      <a href="#/home/page1">go child-page1</a>
+      <a href="#/home/page2">go child-page2</a>
+      <a href="#/home/page3">go child-page3</a>
+      <a href="#/home/page1/page2">go child-page1-page2</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page1">
+    <div>
+      <h2>页面1</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page2">
+    <div>
+      <h2>页面2</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page3">
+    <div>
+      <h2>页面3</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page4">
+    <div>
+      <h2>嵌套页面1</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page5">
+    <div>
+      <h2>嵌套页面2</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+
+  <script type="text/html" id="page6">
+    <div>
+      <h2>嵌套页面3</h2>
+      <a href="#/home">Go Home!</a>
+    </div>
+  </script>
+</body>
+</html>
