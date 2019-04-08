@@ -13,7 +13,7 @@
 <router-link to="/a">go a</router-link>
 <router-link to="/b">go b</router-link>
 ```
-## configure
+## configuration
 ```js
 var router = new Router({
   routers: [
