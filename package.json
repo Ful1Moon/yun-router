@@ -1,0 +1,15 @@
+{
+  "name": "yun-router",
+  "version": "1.0.0",
+  "description": "A simple frontend router library.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "router",
+    "js"
+  ],
+  "author": "",
+  "license": "MIT"
+}
